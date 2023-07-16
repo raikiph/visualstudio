@@ -33,12 +33,12 @@
             this.txtMaDanhMuc = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.dtgvDanhMuc = new System.Windows.Forms.DataGridView();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnHuy = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
-            this.dtgvDanhMuc = new System.Windows.Forms.DataGridView();
             this.btnThem = new System.Windows.Forms.Button();
             this.pnlDanhMuc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvDanhMuc)).BeginInit();
@@ -87,55 +87,6 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Ma Danh Muc";
             // 
-            // btnThoat
-            // 
-            this.btnThoat.Location = new System.Drawing.Point(292, 264);
-            this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(75, 25);
-            this.btnThoat.TabIndex = 7;
-            this.btnThoat.Text = "Thoat";
-            this.btnThoat.UseVisualStyleBackColor = true;
-            // 
-            // btnHuy
-            // 
-            this.btnHuy.Location = new System.Drawing.Point(292, 223);
-            this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(75, 25);
-            this.btnHuy.TabIndex = 8;
-            this.btnHuy.Text = "Huy";
-            this.btnHuy.UseVisualStyleBackColor = true;
-            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
-            // 
-            // btnLuu
-            // 
-            this.btnLuu.Location = new System.Drawing.Point(292, 181);
-            this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(75, 25);
-            this.btnLuu.TabIndex = 9;
-            this.btnLuu.Text = "Luu";
-            this.btnLuu.UseVisualStyleBackColor = true;
-            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
-            // 
-            // btnXoa
-            // 
-            this.btnXoa.Location = new System.Drawing.Point(292, 137);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 25);
-            this.btnXoa.TabIndex = 10;
-            this.btnXoa.Text = "Xoa";
-            this.btnXoa.UseVisualStyleBackColor = true;
-            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
-            // 
-            // btnSua
-            // 
-            this.btnSua.Location = new System.Drawing.Point(292, 94);
-            this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 25);
-            this.btnSua.TabIndex = 11;
-            this.btnSua.Text = "Sua";
-            this.btnSua.UseVisualStyleBackColor = true;
-            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
-            // 
             // dtgvDanhMuc
             // 
             this.dtgvDanhMuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -145,13 +96,63 @@
             this.dtgvDanhMuc.TabIndex = 6;
             this.dtgvDanhMuc.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvDanhMuc_CellContentClick);
             // 
+            // btnThoat
+            // 
+            this.btnThoat.Image = global::frmnhaccu.Properties.Resources.close_02;
+            this.btnThoat.Location = new System.Drawing.Point(292, 289);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(150, 50);
+            this.btnThoat.TabIndex = 7;
+            this.btnThoat.UseVisualStyleBackColor = true;
+            // 
+            // btnHuy
+            // 
+            this.btnHuy.Image = global::frmnhaccu.Properties.Resources.Untitled_1_06;
+            this.btnHuy.Location = new System.Drawing.Point(292, 235);
+            this.btnHuy.Name = "btnHuy";
+            this.btnHuy.Size = new System.Drawing.Size(150, 50);
+            this.btnHuy.TabIndex = 8;
+            this.btnHuy.UseVisualStyleBackColor = true;
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
+            // 
+            // btnLuu
+            // 
+            this.btnLuu.Image = global::frmnhaccu.Properties.Resources.Untitled_1_07;
+            this.btnLuu.Location = new System.Drawing.Point(292, 181);
+            this.btnLuu.Name = "btnLuu";
+            this.btnLuu.Size = new System.Drawing.Size(150, 50);
+            this.btnLuu.TabIndex = 9;
+            this.btnLuu.UseVisualStyleBackColor = true;
+            this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.Image = global::frmnhaccu.Properties.Resources.Untitled_1_03;
+            this.btnXoa.Location = new System.Drawing.Point(292, 127);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(150, 50);
+            this.btnXoa.TabIndex = 10;
+            this.btnXoa.UseVisualStyleBackColor = true;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.Image = global::frmnhaccu.Properties.Resources.Untitled_1_04;
+            this.btnSua.Location = new System.Drawing.Point(292, 73);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(150, 50);
+            this.btnSua.TabIndex = 11;
+            this.btnSua.UseVisualStyleBackColor = true;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
+            // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(292, 52);
+            this.btnThem.Image = global::frmnhaccu.Properties.Resources.Untitled_1_051;
+            this.btnThem.Location = new System.Drawing.Point(292, 19);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(0);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 25);
+            this.btnThem.Size = new System.Drawing.Size(150, 50);
             this.btnThem.TabIndex = 12;
-            this.btnThem.Text = "Them";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
@@ -159,7 +160,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(388, 320);
+            this.ClientSize = new System.Drawing.Size(472, 355);
             this.Controls.Add(this.pnlDanhMuc);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnHuy);

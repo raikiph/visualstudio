@@ -19,6 +19,7 @@ namespace frmnhaccu
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
+            txtTaiKhoan.Select();
             txtMatKhau.UseSystemPasswordChar = true;
         }
 
@@ -83,18 +84,67 @@ namespace frmnhaccu
                         frm.Show();
                         //frmshow
                         //frm.MnBaocao.Enabled = false;
+
                         frm.MnHeThong.Enabled = false;
+                        frm.ThemTaiKhoan.Enabled = false;
                         frm.QLTaiKhoan.Enabled = false;
                         frm.MnQuanLy.Enabled = false;
                         frm.MnSanPham.Enabled = false;
+                        frm.MnDanhMuc.Enabled = false;
                         frm.MnNhanVien.Enabled = false;
+                        frm.MmChiTietHD.Enabled = false;
+                        frm.MnHoaDon.Enabled = false;
+                        frm.MnKhachHang.Enabled = false;
+                        frm.MnThongKe.Enabled = false;
+                        frm.MnInBaoCao.Enabled = false;                          
                         //so sanh cac quyen co trong dtPQ
                         foreach (DataRow row in dtPQ.Rows)
                         {
                             if (row["idcn"].ToString().Trim() == "1")
+                            {                       
+                                frm.MnHeThong.Enabled = true;
+                                frm.ThemTaiKhoan.Enabled = true;                      
+                            }
+                            if (row["idcn"].ToString().Trim() == "2")
                             {
                                 frm.MnHeThong.Enabled = true;
                                 frm.QLTaiKhoan.Enabled = true;
+                            }
+                            if (row["idcn"].ToString().Trim() == "3")
+                            {
+                                frm.MnQuanLy.Enabled = true;
+                                frm.MnDanhMuc.Enabled = true;
+                            }
+                            if (row["idcn"].ToString().Trim() == "4")
+                            {
+                                frm.MnQuanLy.Enabled = true;
+                                frm.MnSanPham.Enabled = true;
+                            }
+                            if (row["idcn"].ToString().Trim() == "5")
+                            {
+                                frm.MnQuanLy.Enabled = true;
+                                frm.MnNhanVien.Enabled = true;
+                            }
+                            if (row["idcn"].ToString().Trim() == "6")
+                            {
+                                frm.MnQuanLy.Enabled = true;
+                                frm.MnHoaDon.Enabled = true;
+                            }
+                            if (row["idcn"].ToString().Trim() == "7")
+                            {
+                                frm.MnQuanLy.Enabled = true;
+                                frm.MnKhachHang.Enabled = true;
+                            }
+                            if (row["idcn"].ToString().Trim() == "8")
+                            {
+                                frm.MnQuanLy.Enabled = true;
+                                frm.MnHoaDon.Enabled = true;                                
+                                frm.MmChiTietHD.Enabled = true;
+                            }
+                            if (row["idcn"].ToString().Trim() == "9")
+                            {
+                                frm.MnThongKe.Enabled = true;
+                                frm.MnInBaoCao.Enabled = true;
                             }
                         }
                     }

@@ -51,21 +51,21 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(466, 261);
+            this.btnXoa.Image = global::frmnhaccu.Properties.Resources.Untitled_1_03;
+            this.btnXoa.Location = new System.Drawing.Point(448, 209);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 23);
+            this.btnXoa.Size = new System.Drawing.Size(150, 50);
             this.btnXoa.TabIndex = 22;
-            this.btnXoa.Text = "Xoa";
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(466, 153);
+            this.btnThem.Image = global::frmnhaccu.Properties.Resources.Untitled_1_051;
+            this.btnThem.Location = new System.Drawing.Point(448, 153);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 23);
+            this.btnThem.Size = new System.Drawing.Size(150, 50);
             this.btnThem.TabIndex = 24;
-            this.btnThem.Text = "Them";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
@@ -123,31 +123,31 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(578, 265);
+            this.btnThoat.Image = global::frmnhaccu.Properties.Resources.close_02;
+            this.btnThoat.Location = new System.Drawing.Point(616, 265);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(75, 23);
+            this.btnThoat.Size = new System.Drawing.Size(150, 50);
             this.btnThoat.TabIndex = 19;
-            this.btnThoat.Text = "Thoat";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(578, 209);
+            this.btnLuu.Image = global::frmnhaccu.Properties.Resources.Untitled_1_07;
+            this.btnLuu.Location = new System.Drawing.Point(448, 265);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(75, 23);
+            this.btnLuu.Size = new System.Drawing.Size(150, 50);
             this.btnLuu.TabIndex = 20;
-            this.btnLuu.Text = "Luu";
             this.btnLuu.UseVisualStyleBackColor = true;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(466, 207);
+            this.btnHuy.Image = global::frmnhaccu.Properties.Resources.Untitled_1_06;
+            this.btnHuy.Location = new System.Drawing.Point(616, 209);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(75, 23);
+            this.btnHuy.Size = new System.Drawing.Size(150, 50);
             this.btnHuy.TabIndex = 21;
-            this.btnHuy.Text = "Huy";
             this.btnHuy.UseVisualStyleBackColor = true;
             this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
@@ -194,11 +194,11 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(575, 153);
+            this.btnSua.Image = global::frmnhaccu.Properties.Resources.Untitled_1_04;
+            this.btnSua.Location = new System.Drawing.Point(616, 153);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 23);
+            this.btnSua.Size = new System.Drawing.Size(150, 50);
             this.btnSua.TabIndex = 23;
-            this.btnSua.Text = "Sua";
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
@@ -207,7 +207,7 @@
             this.dtgvHoaDon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvHoaDon.Location = new System.Drawing.Point(46, 153);
             this.dtgvHoaDon.Name = "dtgvHoaDon";
-            this.dtgvHoaDon.Size = new System.Drawing.Size(414, 150);
+            this.dtgvHoaDon.Size = new System.Drawing.Size(384, 150);
             this.dtgvHoaDon.TabIndex = 17;
             this.dtgvHoaDon.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvHoaDon_CellContentClick);
             // 
@@ -215,7 +215,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(732, 315);
+            this.ClientSize = new System.Drawing.Size(796, 385);
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.btnThoat);

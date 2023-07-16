@@ -43,7 +43,7 @@
             // 
             // txtIdNguoiDung
             // 
-            this.txtIdNguoiDung.Location = new System.Drawing.Point(59, 215);
+            this.txtIdNguoiDung.Location = new System.Drawing.Point(84, 269);
             this.txtIdNguoiDung.Name = "txtIdNguoiDung";
             this.txtIdNguoiDung.Size = new System.Drawing.Size(100, 20);
             this.txtIdNguoiDung.TabIndex = 16;
@@ -51,7 +51,7 @@
             // 
             // txtIdChucNang
             // 
-            this.txtIdChucNang.Location = new System.Drawing.Point(59, 178);
+            this.txtIdChucNang.Location = new System.Drawing.Point(84, 232);
             this.txtIdChucNang.Name = "txtIdChucNang";
             this.txtIdChucNang.Size = new System.Drawing.Size(100, 20);
             this.txtIdChucNang.TabIndex = 15;
@@ -120,9 +120,9 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(59, 139);
+            this.btnThem.Location = new System.Drawing.Point(78, 140);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 23);
+            this.btnThem.Size = new System.Drawing.Size(150, 50);
             this.btnThem.TabIndex = 7;
             this.btnThem.Text = "Them";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -132,7 +132,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(498, 261);
+            this.ClientSize = new System.Drawing.Size(576, 295);
             this.Controls.Add(this.txtIdNguoiDung);
             this.Controls.Add(this.txtIdChucNang);
             this.Controls.Add(this.txtIdPhanQuyen);

@@ -45,15 +45,16 @@
             this.txtIdNguoiDung = new System.Windows.Forms.TextBox();
             this.pnlTaiKhoan = new System.Windows.Forms.Panel();
             this.btnThem = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTaiKhoan)).BeginInit();
             this.pnlTaiKhoan.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(357, 204);
+            this.btnHuy.Location = new System.Drawing.Point(307, 142);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(75, 23);
+            this.btnHuy.Size = new System.Drawing.Size(150, 50);
             this.btnHuy.TabIndex = 11;
             this.btnHuy.Text = "Huy";
             this.btnHuy.UseVisualStyleBackColor = true;
@@ -61,9 +62,9 @@
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(266, 204);
+            this.btnLuu.Location = new System.Drawing.Point(463, 86);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(75, 23);
+            this.btnLuu.Size = new System.Drawing.Size(150, 50);
             this.btnLuu.TabIndex = 10;
             this.btnLuu.Text = "Luu";
             this.btnLuu.UseVisualStyleBackColor = true;
@@ -107,7 +108,7 @@
             // dtgvTaiKhoan
             // 
             this.dtgvTaiKhoan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvTaiKhoan.Location = new System.Drawing.Point(266, 34);
+            this.dtgvTaiKhoan.Location = new System.Drawing.Point(12, 233);
             this.dtgvTaiKhoan.Name = "dtgvTaiKhoan";
             this.dtgvTaiKhoan.Size = new System.Drawing.Size(401, 150);
             this.dtgvTaiKhoan.TabIndex = 8;
@@ -115,9 +116,9 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(174, 204);
+            this.btnXoa.Location = new System.Drawing.Point(307, 86);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 23);
+            this.btnXoa.Size = new System.Drawing.Size(150, 50);
             this.btnXoa.TabIndex = 5;
             this.btnXoa.Text = "Xoa";
             this.btnXoa.UseVisualStyleBackColor = true;
@@ -125,9 +126,9 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(93, 204);
+            this.btnSua.Location = new System.Drawing.Point(463, 29);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 23);
+            this.btnSua.Size = new System.Drawing.Size(150, 50);
             this.btnSua.TabIndex = 6;
             this.btnSua.Text = "Sua";
             this.btnSua.UseVisualStyleBackColor = true;
@@ -198,19 +199,30 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(12, 204);
+            this.btnThem.Location = new System.Drawing.Point(307, 30);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 23);
+            this.btnThem.Size = new System.Drawing.Size(150, 50);
             this.btnThem.TabIndex = 7;
             this.btnThem.Text = "Them";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
+            // btnThoat
+            // 
+            this.btnThoat.Location = new System.Drawing.Point(463, 142);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(150, 50);
+            this.btnThoat.TabIndex = 11;
+            this.btnThoat.Text = "Thoat";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnHuy_Click);
+            // 
             // frmThemTaiKhoan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(679, 261);
+            this.ClientSize = new System.Drawing.Size(683, 405);
+            this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnHuy);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.dtgvTaiKhoan);
@@ -247,5 +259,6 @@
         private System.Windows.Forms.TextBox txtIdNguoiDung;
         private System.Windows.Forms.Panel pnlTaiKhoan;
         private System.Windows.Forms.Button btnThem;
+        private System.Windows.Forms.Button btnThoat;
     }
 }

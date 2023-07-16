@@ -55,11 +55,11 @@
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(45, 326);
+            this.btnThem.Image = global::frmnhaccu.Properties.Resources.Untitled_1_051;
+            this.btnThem.Location = new System.Drawing.Point(699, 159);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 23);
+            this.btnThem.Size = new System.Drawing.Size(150, 50);
             this.btnThem.TabIndex = 25;
-            this.btnThem.Text = "Them";
             this.btnThem.UseVisualStyleBackColor = true;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
@@ -142,41 +142,41 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(603, 326);
+            this.btnThoat.Image = global::frmnhaccu.Properties.Resources.close_02;
+            this.btnThoat.Location = new System.Drawing.Point(855, 271);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(75, 23);
+            this.btnThoat.Size = new System.Drawing.Size(150, 50);
             this.btnThoat.TabIndex = 20;
-            this.btnThoat.Text = "Thoat";
             this.btnThoat.UseVisualStyleBackColor = true;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // btnLuu
             // 
-            this.btnLuu.Location = new System.Drawing.Point(481, 326);
+            this.btnLuu.Image = global::frmnhaccu.Properties.Resources.Untitled_1_07;
+            this.btnLuu.Location = new System.Drawing.Point(699, 271);
             this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(75, 23);
+            this.btnLuu.Size = new System.Drawing.Size(150, 50);
             this.btnLuu.TabIndex = 21;
-            this.btnLuu.Text = "Luu";
             this.btnLuu.UseVisualStyleBackColor = true;
             this.btnLuu.Click += new System.EventHandler(this.btnLuu_Click);
             // 
             // btnHuy
             // 
-            this.btnHuy.Location = new System.Drawing.Point(372, 326);
+            this.btnHuy.Image = global::frmnhaccu.Properties.Resources.Untitled_1_06;
+            this.btnHuy.Location = new System.Drawing.Point(855, 215);
             this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(75, 23);
+            this.btnHuy.Size = new System.Drawing.Size(150, 50);
             this.btnHuy.TabIndex = 22;
-            this.btnHuy.Text = "Huy";
             this.btnHuy.UseVisualStyleBackColor = true;
             this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(263, 326);
+            this.btnXoa.Image = global::frmnhaccu.Properties.Resources.Untitled_1_03;
+            this.btnXoa.Location = new System.Drawing.Point(699, 215);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 23);
+            this.btnXoa.Size = new System.Drawing.Size(150, 50);
             this.btnXoa.TabIndex = 23;
-            this.btnXoa.Text = "Xoa";
             this.btnXoa.UseVisualStyleBackColor = true;
             this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
@@ -243,11 +243,11 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(154, 326);
+            this.btnSua.Image = global::frmnhaccu.Properties.Resources.Untitled_1_04;
+            this.btnSua.Location = new System.Drawing.Point(855, 159);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 23);
+            this.btnSua.Size = new System.Drawing.Size(150, 50);
             this.btnSua.TabIndex = 24;
-            this.btnSua.Text = "Sua";
             this.btnSua.UseVisualStyleBackColor = true;
             this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
@@ -255,7 +255,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(729, 367);
+            this.ClientSize = new System.Drawing.Size(1017, 367);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnLuu);
